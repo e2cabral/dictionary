@@ -1,11 +1,19 @@
 import React from 'react';
 
+import { WordList } from '../../components/WordList/WordList';
+
+import './Home.css';
+
 interface Props {
 
 }
 
 export const Home: React.FC<Props> = () => {
     return (
-        <h1>Home component created</h1>
+        <div className="container">
+            <div className="row">
+                <WordList words={[]} />
+            </div>
+        </div>
     );
 }
