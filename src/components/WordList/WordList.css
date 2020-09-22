@@ -1,0 +1,27 @@
+.list {
+    width: 100%;
+    padding: 1.75rem;
+    box-sizing: border-box;
+}
+
+.listItem {
+    padding: 1.75rem;
+    margin-bottom: .75rem;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: .65rem;
+}
+
+.listItem__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listItem__synonyms {
+    font-style: italic;
+    line-height: 2.75rem;
+}
+
+.listItem__definition {
+    line-height: 1.75rem;
+}
