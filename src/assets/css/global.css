@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    background: linear-gradient(#fdfdfd, #ededed) fixed;
 }
 ul {
     list-style: none;
