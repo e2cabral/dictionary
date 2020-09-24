@@ -11,3 +11,12 @@
     width: 80%;
     height: 100vh;
 }
+
+.searchbar__container {
+    position: fixed;
+    width: 81%;
+}
+
+.wordlist__container {
+    padding-top: 10rem;
+}
